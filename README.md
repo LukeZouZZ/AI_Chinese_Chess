@@ -19,6 +19,5 @@ Each MCTS move triggers thousands of NN inferences, so performance is crucial.
 ## 3) Multi-process synchronous training
 - Start self-play (you can run multiple processes):
   python collect.py  
-
 - Start training (run only one process):
   python train.py
